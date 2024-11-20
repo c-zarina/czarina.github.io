@@ -1,0 +1,111 @@
+@media only screen and (min-width: 992px) {
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    padding: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 25%;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15%;
+    z-index: 100;
+    background-color: black;
+    height: 5px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: purple;
+}
+
+.highlight {
+    color: purple;
+    font-size: 95%;
+}
+
+.hme{
+    margin-left: 1.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    margin-top: 7%;
+}
+
+
+#btn1{
+    border: 5%;
+    border-color: purple;
+    border-style: solid;
+    border-radius: 50px;
+    background-color: black;
+    color: white; 
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 3%;
+}
+
+#btn2 {
+    border: 5%;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50px;
+    background-color: purple;
+    color: white; 
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 3%;
+}
+
+#robin1 {
+    margin: 8%;
+    height: 75%;
+    width: 45%;
+    margin-left: 55%;
+}
+#robin2 {
+    margin: 8%;
+    height: 65%;
+    width: 25%;
+    margin-left: 0%;
+}
+.abt {
+    margin-left: 1.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 5%;
+    display: flex-end;
+    padding-top: 3%;
+}
+}
