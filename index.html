@@ -11,13 +11,13 @@
     <div class="header">
     <nav>
         <ul>
-            <li style="margin-right: 60%; font-weight: bolder; padding-bottom: 15%;">CZRN</li>
+            <li style="margin-right: 50%; font-weight: bolder;">CZRN</li>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#proj">Projects</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a href="#">My Blog</a></li>
+            <li><a href="#">Blog</a></li>
         </ul>
     </nav>
     </div>
@@ -30,15 +30,36 @@
         <span style="font-size: 170%;">Information Technlogy</span>
         <br>
             <button id="btn1">Contact</button>
-            <button id="btn2">About me</button>
+            <button type="button" class="btn2" onclick="location.href='#about'">About me</button>
     </div>
     <img src="https://i.pinimg.com/originals/49/48/53/494853f33f362ecb252baf6468ddd136.png" id="robin1">
 </nav>
-<nav id="about">
-    <div class="abt">
+
+<nav id="about" class="abt">
         <h1 style="text-align: center;">Czarina Grace Duque</h1>
-        </div>
-        <img src="https://i.pinimg.com/originals/49/48/53/494853f33f362ecb252baf6468ddd136.png" id="robin2">
+            <form class="form">
+                <img src="https://i.pinimg.com/originals/49/48/53/494853f33f362ecb252baf6468ddd136.png" id="robin2">
+                <p><span style="background-color: purple; padding: 5px; padding-right: 95%;">Education</span><br><br>Bachelor of Science in Information Technology<br><span style="font-style: italic; font-weight: 100; font-size: medium;">Nueva Ecija University of Science and Technology</span><br>
+                <br>
+                <span style="background-color: purple; padding: 5px; padding-right: 88%;">Certifications</span><br><br>Computer Systems Servicing<br><span style="font-style: italic; font-weight: 100; font-size: medium;">TESDA</span><br>
+                <br>Information Technology Specialist in Networking<br><span style="font-style: italic; font-weight: 100; font-size: medium;">Certiport</span><br></p>
+            </form>
+</nav>
+
+<nav id="skills" class="skls">
+    <h1 style="text-align: center;">Skills</h1>
+    <div class="bar-graph">
+        <div class="bar" style="width: 60%; height: 10%;">Web3</div><br>
+        <div class="bar" style="width: 80%; height: 10%;">Java</div><br>
+        <div class="bar" style="width: 40%; height: 10%;">C++</div><br>
+        <div class="bar" style="width: 50%; height: 10%;">Python</div><br>
+    </div>
+</nav>
+
+<nav id="proj">
+    <div class="pros">
+    <h1>Work in Progress</h1>
+    </div>
 </nav>
 </body>
 </html>
