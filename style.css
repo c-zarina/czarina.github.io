@@ -1,4 +1,4 @@
-@media only screen and (min-width: 992px) {
+ 
 
 body {
     background-color: black;
@@ -10,11 +10,11 @@ body {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: bolder;
     position: fixed;
     top: 0;
     left: 0;
-    bottom: 25%;
+    bottom: 15%;
     width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 15%;
@@ -22,7 +22,6 @@ body {
     background-color: black;
     height: 5px;
 }
-
 
 nav ul {
     list-style-type: none;
@@ -32,7 +31,11 @@ nav ul {
 
 nav li {
     display: inline-block;
+}
+
+nav ul li {
     margin-right: 20px;
+    font-size: 18px;
 }
 
 nav a {
@@ -41,7 +44,8 @@ nav a {
 }
 
 a:hover {
-    color: purple;
+    background-color: purple;
+    padding: 15%;
 }
 
 .highlight {
@@ -73,7 +77,7 @@ a:hover {
     margin-top: 3%;
 }
 
-#btn2 {
+.btn2 {
     border: 5%;
     border-color: black;
     border-style: solid;
@@ -96,16 +100,64 @@ a:hover {
     margin-left: 55%;
 }
 #robin2 {
-    margin: 8%;
     height: 65%;
     width: 25%;
     margin-left: 0%;
+    padding-left: 0%;
+    padding-right: 5%;
 }
 .abt {
-    margin-left: 1.5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-right: 5%;
-    display: flex-end;
-    padding-top: 3%;
+    margin-right: 7%;
+    padding-top: 10%;
 }
+p {
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.bar-graph {
+    width: 80%;
+    height: 300px;
+    border-radius: 8px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.bar {
+    width: 30px;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-right: 25%;
+    padding: 1%;
+    font-weight: bold;
+}
+
+.skls {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 7%;
+    margin-top: 10%;
+    margin-bottom: 30%;
+    bottom: 0;
+}
+
+.pros {
+    margin-top: 10%;
+    border: 25%;
+    border-color: purple;
+    border-style: solid;
+    color: purple;
+    padding: 15%
 }
