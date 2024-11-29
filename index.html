@@ -29,7 +29,7 @@
         <span style="font-size: 650%; font-weight: bolder;">I'm <span class="highlight">Czarina</span></span><br>
         <span style="font-size: 170%;">Information Technlogy</span>
         <br>
-            <button id="btn1">Contact</button>
+            <button id="btn1" onclick="location.href='#con'">Contact</button>
             <button type="button" class="btn2" onclick="location.href='#about'">About me</button>
     </div>
     <img src="https://i.pinimg.com/originals/49/48/53/494853f33f362ecb252baf6468ddd136.png" id="robin1">
@@ -66,20 +66,25 @@
 
 <nav id="con">
     <div class="cont">
-    <h1>Contacts</h1>
-    <a href="https://www.facebook.com/profile.php?id=100069941114314"><img src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-1-2.png" class="logo"></a>
-    <a href="https://www.instagram.com/czrnxyz/?next=%2F"><img src="https://www.pngmart.com/files/13/Instagram-Logo-PNG-Image-1.png" class="logo"></a>
-    <a href="https://www.linkedin.com/in/czarina-grace-duque-588763270/"><img src="https://techssocial.net/wp-content/uploads/2016/04/Linkedin.png" class="logo"></a>
-    <a href="https://github.com/c-zarina"><img src="https://cdn3.iconfinder.com/data/icons/inficons/512/github.png" class="logo"></a>
-        <div class="message">
-        <p style="font-size: medium;">Name:</p>
-        <input type="text" style="border: 2px; border-color: purple; border-style: solid;" placeholder="Enter your name..."><br>
-        <p style="font-size: medium;">Email:</p>
-        <input type="email" style="border: 2px; border-color: purple; border-style: solid;" placeholder="Enter your email..."><br>
-        <p style="font-size: medium;">Message:</p>
-        <input type="text" style="border: 2px; border-color: purple; padding-right: 5%; padding-bottom: 35%; border-style: solid; text-align: start;" placeholder="Message..."><br>
-        <button type="submit" class="btn2">Send</button>
-        </div>
+    <h1 style="text-align: center; margin-bottom: 5%;">Contacts</h1>
+    <h1 style="text-align: center; top: 0;">OR</h1><br>
+    <div class="center">
+    <a href="https://www.facebook.com/profile.php?id=100069941114314"><img src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-1-2.png" class="logo">Czarina</a><br>
+    <a href="https://www.instagram.com/czrnxyz/?next=%2F"><img src="https://www.pngmart.com/files/13/Instagram-Logo-PNG-Image-1.png" class="logo">@czrnxyz</a><br>
+    <a href="https://www.linkedin.com/in/czarina-grace-duque-588763270/"><img src="https://techssocial.net/wp-content/uploads/2016/04/Linkedin.png" class="logo">Czarina</a><br>
+    <a href="https://github.com/c-zarina"><img src="https://cdn3.iconfinder.com/data/icons/inficons/512/github.png" class="logo">Czarina</a>
+    </div>
+        <form class="message" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="9d262af7-4075-4194-89c5-ce3a320e4140">
+
+        <p style="font-size: medium; color: white;">Name:</p>
+        <input type="text" style="border: 2px; border-color: purple; border-style: solid; border-radius: 50px;" placeholder="Enter your name..." name="name" required><br>
+        <p style="font-size: medium; color: white;">Email:</p>
+        <input type="email" name="email" style="border: 2px; border-color: purple; border-style: solid; border-radius: 50px;" placeholder="Enter your email..." required><br>
+        <p style="font-size: medium; color: white;">Message:</p>
+        <textarea rows="7" type="text" style="border: 2px; border-color: purple; border-style: solid; border-radius: 30px; padding-left: 5%; padding-top: 5%;" placeholder="Message..." name="msg" required></textarea><br>
+        <button type="submit" class="btn2" style="margin-left: 20%;">Send</button>
+        </form>
     </div>
 </nav>
 </body>
