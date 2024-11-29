@@ -60,7 +60,7 @@ nav .a {
 }
 
 #btn1, .btn2 {
-    border: 5%;
+    border: none;
     border-radius: 50px;
     padding: 15px 32px;
     text-align: center;
@@ -72,13 +72,13 @@ nav .a {
 #btn1 {
     background-color: black;
     color: white;
+    border-style: solid;
     border-color: purple;
 }
 
 .btn2 {
     background-color: purple;
     color: white;
-    border-color: black;
 }
 
 /* Responsive Image */
@@ -165,17 +165,34 @@ p {
     margin-left: 5%;
     margin-bottom: 15%;
     font-size: medium;
+    position: relative;
+    margin-top: 10%;
 }
 
 .message {
-    float: right;
-    margin-right: 30%;
-    margin-bottom: 5%;
+    background: linear-gradient(rgba(128, 0, 128, 0.5), rgb(255, 255, 255));
+    padding-bottom: 3%;
+    border-radius: 5%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 1%;
+    top: 0;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 5%;
 }
 .logo {
     width: 5%;
     height: 5%;
-    margin-right: 3%;
+    margin-bottom: 1%;
+    position: relative;
+}
+.logostyle {
+    position: relative;
+    flex-direction: column;
+}
+.center {
+    margin-left: 20%;
 }
 /* Media Queries for Responsiveness */
 @media (max-width: 1200px) {
